@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html >
+
+
+<head>
+    <title>table rowspan & colspan</title>
+    <style>
+        table td:nth-child(Even){
+            background-color: brown;
+        }
+        table tr:nth-child(odd){
+            background-color: aqua;
+        }
+    
+    </style>
+    
+
+</head>
+<body>
+    <h>Time Table</h>
+<table border="1" cellspacing="0">
+    <tr>
+        <th colspan="6">Time Table</th>
+        </tr>
+        <tr> 
+        <th rowspan="6">Hours</th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Tus</th>
+        <th>Fri</th>
+    
+    </tr>
+<tr>
+    <td>Science</td>
+    <td>Math</td>
+    <td>Science</td>
+    <td>Arts</td>
+    <td>English</td>
+</tr>
+<tr>
+    <td>Social</td>
+    <td>History</td>
+    <td>sports</td>
+    <td>Economices</td>
+    <td>HRM</td>
+</tr>
+<tr>
+    <th colspan="5">Lunch</th>
+</tr>
+<tr>
+    <td>Social</td>
+    <td>History</td>
+    <td>sports</td>
+    <td>Math</td>
+    <td rowspan="2">Project</td>
+</tr>
+<tr>
+    
+    <td>Math</td>
+<td>social</td>
+<td>Arts</td>
+<td>CHE</td>
+</tr>
+
+
+
+</table>
+    
+
+        
+    
+</body>
+</html>

@@ -1,0 +1,16 @@
+ .background{
+    width:300 px;
+    height:200px;
+    border:2px solid red;
+    background-color: bisque;
+ }
+ 
+ .linear-gradient{
+    width:200px;
+    height: 200px;
+    background:linear-gradient(red,blue,crimson);
+}
+
+
+
+

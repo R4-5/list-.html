@@ -1,0 +1,21 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    background-color: #143f6b;
+
+
+}
+
+.indonesia-flag{
+
+width: 500px;
+    height: 300px;
+    background-image: linear-gradient(to bottom, #f00 50% ,#fff 50%);
+}

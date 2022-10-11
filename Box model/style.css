@@ -1,0 +1,38 @@
+
+.youtube  {
+font-size: 36px;
+font-weight: 700;
+color: white;
+}
+.youtube i{
+    font-size: 30px;
+    color: rgb(235, 37, 37);
+    text-align: center;
+    position:absolute;
+
+    }
+}
+.home{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(25, 26, 26);
+    border-radius: 50%;
+    position: relative;
+    }
+    .home i{
+    font-size: 30px;
+    color: hotpink;
+    text-align: center;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    }
+
+
+    
+    
+    
+    
+
+    
