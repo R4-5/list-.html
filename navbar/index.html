@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav bar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+</head>
+<style>
+    nav{
+           width: 100%;
+           height: 75px;
+           background-color: rgb(235, 144, 144);
+           position: fixed;
+           top: 0;
+           left: 0;
+        }
+        .nav-container{
+            height: 100%;
+         display: flex;
+         justify-content: space-evenly;
+         align-items: center;
+        }
+        .nav-logo{
+            display: block;
+            width: 80px;
+            height: 60px;
+            margin: top 100px;
+            padding:10px ;
+        }
+        .nav-links{
+            display: flex;
+            gap: 35px;
+            list-style: none;
+        }
+       .nav-links li a{
+        color: midnightblue;
+        text-decoration: none;
+     font-size: 18px;
+     font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+       }
+       .nav-links li a:hover{
+        color:rgb(114, 2, 86);
+       }
+
+</style>
+<body>
+    <nav>
+        <div class="nav-container">
+          <a href="#">
+              <img class="nav-logo" src="logo2.jpg" alt="logo">
+          </a>
+          <ul class="nav-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Gallary</a></li>
+              <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+  
+  
+</body>
+</html>
