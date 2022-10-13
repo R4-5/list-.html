@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0  10px;
+    
+}
+*{
+    box-sizing: border-box;
+}
+
+
+.container{
+   max-width: 1200px; 
+    margin:10px 0 auto;
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 2px;
+    
+}
+
+.container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.header1{
+    grid-area: header;
+    height: 350px;
+}
+
+.sidbar{
+    grid-row: 2/6 ;
+    width: 500px;
+}
+.footer{
+    grid-column: 1/5;
+height: 300px;
+}
+
